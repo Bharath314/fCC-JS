@@ -1,23 +1,26 @@
 body {
     background-color: black;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 50px;
 }
 
-.button {
-    margin: 1rem;
+button{
+    padding: 0;
+    margin: 0;
+}
+
+.button, button {
     text-align: center;
     border: 1px solid white;
     font-family: monospace;
     font-size: 1.75rem;
 }
 
-a {
+a, button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,9 +28,14 @@ a {
     color: white;
     text-decoration: none;
     border: 0.5rem solid transparent;
+    background-color: transparent;
+    font-family: monospace;
 }
 
-a:hover, .button:hover {
+a:hover, .button:hover, button:hover {
     background-color: white;
     color: black;
 }
+
+
+

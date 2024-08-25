@@ -3,8 +3,6 @@ These are a bunch of html+css+js pages that I made to practice my vanilla javasc
 
 <div align="center">
 
-
-
 [![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://bharath314.github.io/fCC-JS/)
 
 </div>
