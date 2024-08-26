@@ -10,7 +10,11 @@ body {
 
 button{
     padding: 0;
-    margin: 0;
+    width: 100%;
+}
+
+.button {
+    margin: 1rem;
 }
 
 .button, button {
